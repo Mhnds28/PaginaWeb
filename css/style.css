@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    height: 230px;
+
+}
+
+.topo-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.form-busca{
+    display: flex;
+}
+input[type="text"]{
+    height: 30px;
+}
+
+input[type="submit"]{
+    height: 30px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+}
+
+.link{
+    padding: 10px 167px;
+    background-color: rgb(78, 78, 78);
+    color: honeydew;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.banner {
+    background-image: url(/images/front.jpg);
+    background-size: cover ;
+    height: 350px;
+    position: relative;
+}
+
+.monitor{
+    position: absolute;
+    left: 870px;
+    top: 100px;
+}
+
+.noticias {
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 48%;
+    padding: 20px;
+    background-color: rgb(194, 187, 187);
+}
+
+.titulo1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.titulo1 p {
+    width: 65%;
+}
+
+.titulo01{
+    margin-top: 30px;
+}
+
+.cafe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-cafe{
+    width: 60%;
+}
+
+.lista-cafe{
+    margin-top: 25px;
+}
+
+.lista-cafe li{
+    margin-bottom: 23px;
+}
+
+main{
+    padding-bottom: 40px;
+}
+
+footer {
+    
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
